@@ -1,0 +1,88 @@
+.profilepage {
+  height: 100vh;
+  width: 100vw;
+  background: rgb(209 213 219);
+}
+
+.signinheader {
+  background: rgb(31 41 55);
+  padding: 28px 50px 28px 28px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.signinheader h2 {
+  padding: 2rem 3rem;
+  border-radius: 1.5rem;
+  color: rgb(209 213 219);
+}
+
+@media (max-width: 450px) {
+  .mobilehide {
+    display: none;
+  }
+}
+
+.signinheader h2:hover {
+  background-color: rgb(55 65 81);
+  color: #ffffff;
+}
+
+.signinheader a {
+  font-family: "Yaldevi", sans-serif;
+  font-size: 2.4rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.signinbodycontainer {
+  margin-top: 12rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.itemform {
+  padding: 5rem 5rem;
+  /* box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.25); */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 3rem;
+  width: 35%;
+}
+
+@media (max-width: 1050px) {
+  .itemform {
+    width: 70%;
+  }
+}
+
+@media (max-width: 450px) {
+  .itemform {
+    width: 90%;
+  }
+}
+
+.itemform h1 {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 4rem;
+}
+
+.itemform p {
+  color: #333333;
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+}
+
+.formbutton {
+  font-weight: 600;
+  font-size: 2rem;
+  background: rgb(168 85 247);
+  border-radius: 1.2rem;
+  border: none;
+  color: #ffffff;
+  padding: 1.5rem 3rem;
+  cursor: pointer;
+  margin-top: 2rem;
+}
